@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Agencia de viajes", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra luctus metus, quis imperdiet lorem accumsan id. Praesent et turpis non velit pellentesque auctor.
+                
+                p Nulla eget quam in risus commodo posuere. Mauris dignissim tellus vitae lectus hendrerit, ut rhoncus ex mattis. Donec pharetra magna sed ante convallis blandit. Quisque vitae enim bibendum, hendrerit tortor sit amet, venenatis erat. Proin vitae quam porta, pharetra nulla quis, posuere augue.
+                
+                p Suspendisse tincidunt faucibus purus, et aliquet tortor suscipit a. Nullam facilisis euismod massa quis suscipit. Etiam scelerisque suscipit mollis. Donec semper pretium mauris nec malesuada. Fusce ipsum metus, feugiat at nibh vitae, maximus sagittis eros. Pellentesque venenatis leo ipsum, non semper mi laoreet vel. Pellentesque pharetra augue a sem ultrices bibendum. 
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Suspendisse tincidunt faucibus purus, et aliquet tortor suscipit a. Nullam facilisis euismod massa quis suscipit.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Suspendisse tincidunt faucibus purus, et aliquet tortor suscipit a. Nullam facilisis euismod massa quis suscipit.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Precios
+                    p Suspendisse tincidunt faucibus purus, et aliquet tortor suscipit a. Nullam facilisis euismod massa quis suscipit.
